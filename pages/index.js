@@ -17,8 +17,8 @@ export default function Home({ wording, locale }) {
   return (
     <>
       <Head>
-        <title>Milan Barande</title>
-        <meta name="description" content="Personal website of Milan Barande" />
+        <title>Simon Alibert</title>
+        <meta name="description" content="Personal website of Simon Alibert" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="main-container">

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Github, WebsiteLink } from '../components/Icons';
+import { Github, WebsiteLink, Wandb } from '../components/Icons';
 
 export default function Card({
   title,
@@ -11,7 +11,8 @@ export default function Card({
   id,
   cta,
   github,
-  link
+  link,
+  wandb
 }) {
   return (
     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 card">
@@ -56,6 +57,16 @@ export default function Card({
               rel="noreferrer"
             >
               <WebsiteLink height={25} width={25} />
+            </a>
+          )}
+          {wandb && (
+            <a
+              href={wandb}
+              className="social-link-hover"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Wandb height={25} width={25} />
             </a>
           )}
         </div>

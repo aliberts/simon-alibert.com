@@ -1,7 +1,7 @@
 export default function DownloadCvButton({ locale, ctaWording }) {
   return (
     <a
-      href={`/CV Milan Barande ${locale}.pdf`}
+      href={`/CV Simon Alibert ${locale}.pdf`}
       alt="alt text"
       target="_blank"
       rel="noopener noreferrer"

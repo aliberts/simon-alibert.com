@@ -1,6 +1,6 @@
 import { Carousel } from 'flowbite-react';
 import useMobileDetect from 'use-mobile-detect-hook';
-import { Github, WebsiteLink } from '../components/Icons';
+import { Github, WebsiteLink, Wandb } from '../components/Icons';
 
 export default function ProjectDetails({
   title,
@@ -12,7 +12,8 @@ export default function ProjectDetails({
   youtubeId,
   getWordingByKey,
   link,
-  github
+  github,
+  wandb
 }) {
   const hasSeveralImages = images && images.length > 1;
   const { isMobile } = useMobileDetect();
@@ -44,6 +45,16 @@ export default function ProjectDetails({
                 rel="noreferrer"
               >
                 <WebsiteLink height={25} width={25} />
+              </a>
+            )}
+            {wandb && (
+              <a
+                href={wandb}
+                className="social-link-hover"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Wandb height={25} width={25} />
               </a>
             )}
           </div>
