@@ -35,36 +35,32 @@ const frWording = {
   partTime: "Temps partiel",
   freelance: "Freelance",
   employee: "CDI",
-  workshopLead: "Workshop Lead",
-  wtw: "Willis Towers Watson",
-  cnp: "CNP Assurances",
-  timeWTW: "Fév. 2017 - Fév. 2020",
-  timeGoodsesame: "Mai 2022 - Juin 2022",
-  // timeGoodsesame: "Mai 2023 - <b>Aujourd"hui</b>",
-  timePcd: "Janv. 2021 - Juillet 2022",
-  timeCNP: "Août 2020 - Janv. 2021",
-  timePredica: "Avril 2019 - Août 2020",
   cdi: "CDI",
-  WorkStudyContract: "Alternance",
+  workStudyContract: "Alternance",
   internship: "Stage",
-  Goodsesame: "GoodSesame",
+  goodsesame: "GoodSesame",
+  timeGoodsesame: "Mai 2022 - Juin 2022",
   descriptionGoodsesame:
-    "Modélisation par TSVD des préférences utilisateurs pour la " +
-    "recommandation des recettes, déploiement d'une API en backend, " +
-    "définition d'une feuille de route et des next steps.<br>" +
-    "(Python, SQL, Docker)",
+  "Modélisation par TSVD des préférences utilisateurs pour la " +
+  "recommandation des recettes, déploiement d'une API en backend, " +
+  "définition d'une feuille de route et des next steps.<br>" +
+  "(Python, SQL, Docker)",
   wtw: "Willis Towers Watson",
+  timeWtw: "Fév. 2017 - Fév. 2020",
   descriptionWtw:
-    "J'ai évolué pendant 3 ans en tant que consultant en actuariat vie au " +
-    "sein de l'équipe Insurance, Consulting \& Technology.<br>" +
-    "- J'ai réalisé de nombreuses missions de modélisation : transformation " +
-    "de modèles, migrations, optimisations, implémentations et documentation " +
-    "(C++, R, VBA).<br>" +
-    "- Productions et revues des calculs règlementaires (VBA, Excel).",
+  "J'ai évolué pendant 3 ans en tant que consultant en actuariat vie au " +
+  "sein de l'équipe Insurance, Consulting \& Technology.<br>" +
+  "- J'ai réalisé de nombreuses missions de modélisation : transformation " +
+  "de modèles, migrations, optimisations, implémentations et documentation " +
+  "(C++, R, VBA).<br>" +
+  "- Productions et revues des calculs règlementaires (VBA, Excel).",
   cnp: "CNP Assurances",
+  timeCnp: "Oct. 2014 - Sep. 2015",
   descriptionCnp:
-    "Rédaction de mon mémoire d'actuariat sur les méthodes d'évaluation " +
-    "rapide des passifs d'une compagnie d'assurance vie.",
+  "Rédaction de mon mémoire d'actuariat sur les méthodes d'évaluation " +
+  "rapide des passifs d'une compagnie d'assurance vie.",
+  Predica: "Predica",
+  timePredica: "Juin 2014 - Août 2014",
   descriptionPredica:
     "Stage sur la cartographie des actifs de diversification dans un " +
     "environnement de taux bas.",
@@ -120,7 +116,7 @@ export default {
       "My skills apply all the way through the value chain: from the definition " +
       "of your problematic to the optimization, the deployment and the " +
       "management of the lifecycle of your models. I am committed to bringing " +
-      "a critical eye and and apply best practices throughout theprocess. " +
+      "a critical eye and and apply best practices throughout the process. " +
       "I care about models explainability as well as code " +
       "quality and performance.<br><br>" +
       "I love teamwork and I can work in both French and English.",
@@ -134,21 +130,17 @@ export default {
     fullTime: "Full Time",
     partTime: "Part Time",
     freelance: "Freelance",
-    workshopLead: "Workshop Lead",
-    timeGoodsesame: "Jan. 2023 - <b>Present</b>",
-    timeWTW: "Sep. 2022 - Jan. 2023",
-    timePcd: "Jan. 2021 - July 2022",
-    timeCNP: "Oct. 2014 - Sep. 2015",
-    timePredica: "June 2014 - August 2014",
     cdi: "Permanent Contract",
-    WorkStudyContract: "Work-study contract",
+    workStudyContract: "Work-study contract",
     internship: "Internship",
-    Goodsesame: "GoodSesame",
+    goodsesame: "GoodSesame",
+    timeGoodsesame: "May 2022 - June 2022",
     descriptionGoodsesame: "TSVD modeling of users preferences for recipes " +
     "recommendation, deployed a backend API, roadmap definition and advisory " +
     "for next steps.<br>" +
     "(Python, SQL, Docker)",
     wtw: "Willis Towers Watson",
+    timeWtw: "Feb. 2017 - Feb. 2020",
     descriptionWtw: "I have worked 3 years as a modeling consultant in life " +
     "insurance within the Insurance, Consulting \& Technology team. I have " +
     "worked on a number of modeling projects including models transformation, " +
@@ -156,17 +148,20 @@ export default {
     "production and review of statutory calculations.<br>" +
     "(C++, R, VBA, Excel)",
     cnp: "CNP Assurances",
+    timeCnp: "Oct. 2014 - Sep. 2015",
     descriptionCnp:
-      "Actuarial thesis on efficient liabilities valuation methods for life " +
-      "insurance companies.",
+    "Actuarial thesis on efficient liabilities valuation methods for life " +
+    "insurance companies.",
+    Predica: "Predica",
+    timePredica: "June 2014 - August 2014",
     descriptionPredica:
       "Financial production field mapping of the diversification assets in a " +
       "low rates environment.",
-    cpge: "Preparatory School for French Grandes Écoles",
-    mastersActuarialScience: "Master's in Actuarial Science",
     education: "Education",
-    openToPartTime: "Open to part time",
     mleBootcamp: "Machine Learning Engineer Bootcamp",
+    mastersActuarialScience: "Master's in Actuarial Science",
+    cpge: "Preparatory School for French Grandes Écoles",
+    openToPartTime: "Open to part time",
     languages: "Languages",
     french: "French",
     english: "English",
