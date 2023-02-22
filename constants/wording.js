@@ -77,7 +77,7 @@ const frWording = {
   personalProjects: "Projet personnel",
   gzoo: "Galaxy Zoo",
   gzooDescription:
-    "Classification des morphologies de galaxies par réseau de neuronnes. " +
+    "Classification des morphologies de galaxies par réseaux de neurones. " +
     "Mise en place d'un pipeline d'expériences et de versionnage du dataset et " +
     "des modèles.",
   portfolioIntro:
