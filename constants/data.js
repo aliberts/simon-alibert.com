@@ -12,7 +12,7 @@ export const experiencesData = [
     description: 'descriptionGoodsesame'
   },
   {
-    jobTitle: 'consultingActuary',
+    jobTitle: 'modelingConsultant',
     employer: 'Willis Towers Watson',
     location: Paris,
     dates: 'timeWtw',
@@ -22,7 +22,7 @@ export const experiencesData = [
     description: 'descriptionWtw'
   },
   {
-    jobTitle: 'actuary',
+    jobTitle: 'modelingActuary',
     employer: 'CNP Assurances',
     location: Paris,
     dates: 'timeCnp',
@@ -32,7 +32,7 @@ export const experiencesData = [
     description: 'descriptionCnp'
   },
   {
-    jobTitle: 'financialAnalyst',
+    jobTitle: 'dataAnalyst',
     employer: 'Predica',
     location: Paris,
     dates: 'timePredica',
