@@ -74,14 +74,22 @@ export const skillsData = [
   'PyTorch',
   'TensorFlow',
   'Scikit-Learn',
+  'XGBoost',
+  'Git',
   'CI/CD',
-  'Weights & Biases',
+  'Docker',
+  'Kubernetes',
+  'AWS',
+  'GCP',
   'MLflow',
   'Airflow',
+  'Weights & Biases',
   'SQL',
+  'Bash',
   'R',
   'C++',
   'VBA',
+  'Microsoft Office',
 ];
 
 export const languagesData = ['french', 'english'];

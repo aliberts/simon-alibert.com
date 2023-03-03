@@ -1,8 +1,9 @@
 import getYearsOfExperience from '../helpers/getYearsOfExperience';
 
 export default function Informations({ getWordingByKey }) {
-  const years = getWordingByKey('yearsWord');
-  const yearsOfExperience = `${getYearsOfExperience()} ${years}`;
+  // const years = getWordingByKey('yearsWord');
+  // const yearsOfExperience = `${getYearsOfExperience()} ${years}`;
+  const yearsOfExperience = getWordingByKey('years');
   return (
     <div className="p-7 block-section">
       <h2 className="block-title">{getWordingByKey('informations')}</h2>
