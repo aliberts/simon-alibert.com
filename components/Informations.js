@@ -1,4 +1,4 @@
-import getYearsOfExperience from '../helpers/getYearsOfExperience';
+// import getYearsOfExperience from '../helpers/getYearsOfExperience';
 
 export default function Informations({ getWordingByKey }) {
   // const years = getWordingByKey('yearsWord');
