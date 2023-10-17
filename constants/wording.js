@@ -116,7 +116,7 @@ export default {
       "My skills apply all the way through the value chain: from the definition " +
       "of your problematic to the optimization, the deployment and the " +
       "management of the lifecycle of your models. I am committed to bringing " +
-      "a critical eye and and apply best practices throughout the process. " +
+      "a critical eye and apply best practices throughout the process. " +
       "I care about models explainability as well as code " +
       "quality and performance.<br><br>" +
       "I love teamwork and I can work in both French and English.",
