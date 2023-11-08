@@ -1,7 +1,7 @@
 const frWording = {
   jobTitle: "Machine Learning & Deep Learning Engineer",
   status: "Disponible",
-  downloadCV: "Télécharger CV",
+  downloadCV: "Téléchargez mon CV",
   informations: "Informations",
   skills: "Compétences",
   location: "Localisation",
@@ -14,16 +14,12 @@ const frWording = {
   yes: "Oui",
   aboutMe: "À propos de moi",
   aboutMeText:
-    "Machine Learning & Deep Learning Engineer Freelance, j'ai travaillé 3 années " +
-    "dans le conseil en actuariat avant de me reconvertir dans l'IA.<br><br>" +
-    "Je vous accompagne dans vos projets pour l'implémentation de solutions de " +
-    "Machine Learning et Deep Learning. Mes compétences s'appliquent tout au " +
-    "long de la chaine de valeur : de la définition de votre problématique à " +
-    "l'optimisation, au déploiement puis à la gestion du cycle de vie de vos " +
-    "modèles. J'ai à coeur d'apporter un regard critique et d'appliquer les best " +
-    "practices durant tout le processus. Je suis sensible aux questions " +
-    "d'intelligibilité des modèles, de qualité et de performance du code.<br><br>" +
-    "J'apprécie le travail en équipe et je peux travailler en français ou en anglais.",
+    "Le sens et l’impact de mon travail comptent beaucoup pour moi. J’adore " +
+    "relever des défis complexes et pousser mes connaissances techniques " +
+    "toujours plus loin. Je peux travailler depuis l’expérimentation des " +
+    "modèles jusqu’à leur déploiement et la gestion de leur cycle de vie en " +
+    "production.<br><br>J’aime travailler en équipe et je parle couramment " +
+    "français et anglais.",
   resume: "CV",
   portfolio: "Portfolio",
   experiences: "Expériences",
@@ -75,19 +71,29 @@ const frWording = {
   occasional: "Occasionel",
   techStack: "Stack technique",
   personalProjects: "Projet personnel",
-  gzoo: "Galaxy Zoo",
-  gzooDescription:
-    "Classification des morphologies de galaxies par réseaux de neurones. " +
-    "Mise en place d'un pipeline d'expériences et de versionnage du dataset et " +
-    "des modèles.",
-  portfolioIntro:
-    "Ce portfolio présente quelques uns de mes projets personnels ainsi que " +
-    "certains des projets que j'ai eu l'opportunité de réaliser à travers mes " +
-    "expériences professionnelles. Il est <b>en cours de construction</b>, " +
-    "d'autres projets seront ajoutés.",
   personalProject: "Projet personnel",
   seeMore: "Voir plus",
-  readMore: "Voir Plus"
+  readMore: "Voir Plus",
+  portfolioIntro:
+  "Ce portfolio présente quelques uns de mes projets personnels ainsi que " +
+  "certains des projets que j'ai eu l'opportunité de réaliser à travers mes " +
+  "expériences professionnelles. Il est <b>en cours de construction</b>, " +
+  "d'autres projets seront ajoutés.",
+  gzoo: "Galaxy Zoo",
+  gzooDescription:
+    "J’ai réalisé de la classification d’images sur les morphologies de " +
+    "galaxies avec des CNNs (ResNet) par apprentissage supervisé. J’ai " +
+    "également mis en place un pipeline pour gérer les expériences et le " +
+    "versionnage des modèles et du dataset. J’ai pu dépasser les dernières " +
+    "performances état de l’art publiées sur la tâche (2018) avec une accuracy " +
+    "d’environ 96% (Python, PyTorch, Weights & Biases).",
+  inews: "Intergalactic News",
+  inewsDescription:
+    "Grâce à des techniques de prompt engineering et de prompt chaining, j’ai " +
+    "créé cette newsletter hebdomadaire pour tenir ses lecteurs informés des " +
+    "dernières nouvelles en astrophysique et astronomie. Son contenu est " +
+    "généré automatiquement à partir de transcriptions de vidéos youtube " +
+    "résumées par un LLM (Python, ChatGPT).",
 };
 
 export default {
@@ -96,7 +102,7 @@ export default {
   en: {
     jobTitle: "Machine Learning & Deep Learning Engineer",
     status: "Available",
-    downloadCV: "Download CV",
+    downloadCV: "Download my resume",
     informations: "Information",
     skills: "Skills",
     location: "Location",
@@ -109,17 +115,12 @@ export default {
     yes: "Yes",
     aboutMe: "About me",
     aboutMeText:
-      "I am a freelance Machine Learning & Deep Learning Engineer, I have " +
-      "worked 3 years in actuarial consulting (mainly modeling) before " +
-      "switching to AI.<br><br>" +
-      "I bring support to your Machine Learning and Deep Learning projects. " +
-      "My skills apply all the way through the value chain: from the definition " +
-      "of your problematic to the optimization, the deployment and the " +
-      "management of the lifecycle of your models. I am committed to bringing " +
-      "a critical eye and apply best practices throughout the process. " +
-      "I care about models explainability as well as code " +
-      "quality and performance.<br><br>" +
-      "I love teamwork and I can work in both French and English.",
+      "I care deeply about the meaning and the impact of my work. I love " +
+      "taking on challenging problems and pushing my technical knowledge " +
+      "further. I can work from running experiments with models or optimize " +
+      "them, to the deployment and the management of their lifecycle in " +
+      "production.<br><br>I love teamwork and am fluent in both English and " +
+      "French.",
     resume: "CV",
     portfolio: "Portfolio",
     experiences: "Experiences",
@@ -168,16 +169,25 @@ export default {
     occasional: "Occasional",
     techStack: "Tech Stack",
     personalProject: "Personal project",
-    gzoo: "Galaxy Zoo",
-    gzooDescription:
-      "Classification of the morphologies of distant galaxies using neural " +
-      "nets. Set up a pipeline for experiments and versioning of models and dataset",
     portfolioIntro:
-      "This portfolio presents some of my personal projects as well as some " +
-      "of the projects and features I've had the opportunity to develop in my " +
-      "professional experiences. It is still <b>under construction</b>, " +
+    "This portfolio presents some of my personal projects as well as some " +
+    "of the projects and features I've had the opportunity to develop in my " +
+    "professional experiences. It is still <b>under construction</b>, " +
       "more projects will be added.",
     seeMore: "See more",
-    readMore: "Read More"
+    readMore: "Read More",
+    gzoo: "Galaxy Zoo",
+    gzooDescription:
+      "Image classification on the morphologies of distant galaxies with CNNs " +
+      "(ResNet) using supervised learning. I also set up a pipeline for " +
+      "experiments and versioning of models and dataset. I improved upon the " +
+      "latest published SOTA performances on the task with an accuracy of " +
+      "around 96% (Python, PyTorch, Weights & Biases).",
+    inews: "Intergalactic News",
+    inewsDescription:
+    "Using prompt engineering and prompt chaining, I created this weekly " +
+    "newsletter to keep its readers informed about the latest developments in " +
+    "Space Science. Its content is automatically generated from youtube videos " +
+    "transcripts and then summarized by a LLM (Python, ChatGPT).",
   }
 };

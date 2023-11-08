@@ -70,12 +70,25 @@ export const studiesData = [
 ];
 
 export const skillsData = [
+  'Machine Learning',
+  'Deep Learning',
+  'Computer Vision',
+  'NLP',
   'Python',
-  'PyTorch',
-  'TensorFlow',
+  'Bash',
+  'SQL',
+  'R',
+  'C++',
+  'VBA',
+  'Git',
+  'Microsoft Office',
+  'Pandas',
   'Scikit-Learn',
   'XGBoost',
-  'Git',
+  'Spark',
+  'Dask',
+  'PyTorch',
+  'TensorFlow',
   'CI/CD',
   'Docker',
   'Kubernetes',
@@ -84,12 +97,6 @@ export const skillsData = [
   'MLflow',
   'Airflow',
   'Weights & Biases',
-  'SQL',
-  'Bash',
-  'R',
-  'C++',
-  'VBA',
-  'Microsoft Office',
 ];
 
 export const languagesData = ['french', 'english'];
@@ -108,6 +115,20 @@ export const portfolioData = [
     alt: 'Galaxy Zoo illustration',
     // link: 'https://wandb.ai/aliberts/galaxy-zoo?workspace=user-aliberts',
     wandb: 'https://wandb.ai/aliberts/galaxy-zoo?workspace=user-aliberts',
+    cta: 'readMore'
+  },
+  {
+    id: 'inews',
+    year: '2023',
+    title: 'inews',
+    subtitle: 'personalProject',
+    description: 'inewsDescription',
+    stack: ['Python', 'ChatGPT'],
+    github: 'https://github.com/aliberts/intergalactic-news',
+    imageSrc: '/inewsbanner.jpeg',
+    alt: 'Intergalactic News illustration',
+    // link: 'https://wandb.ai/aliberts/galaxy-zoo?workspace=user-aliberts',
+    // wandb: 'https://wandb.ai/aliberts/galaxy-zoo?workspace=user-aliberts',
     cta: 'readMore'
   }
 ];
