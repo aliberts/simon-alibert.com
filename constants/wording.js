@@ -139,7 +139,7 @@ export default {
     workStudyContract: "Work-study contract",
     internship: "Internship",
     freelancing: "Freelance",
-    timeFreelancing: "May 2022 - January 2024",
+    timeFreelancing: "2022 - 2024",
     descriptionFreelancing:
     "• I carried out an audit of pricing data for a commercial vehicle rental " +
     "company and then built a pricing engine for pricing strategies optimization.<br>" +
