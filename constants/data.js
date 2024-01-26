@@ -3,13 +3,12 @@ const Paris = 'Paris, France';
 export const experiencesData = [
   {
     jobTitle: 'machineLearningEngineer',
-    employer: 'GoodSesame',
+    employer: 'Freelance',
     location: Paris,
-    dates: 'timeGoodsesame',
+    dates: 'timeFreelancing',
     status: 'freelance',
-    time: 'fullTime',
-    logo: 'goodsesame',
-    description: 'descriptionGoodsesame'
+    time: 'partTime',
+    description: 'descriptionFreelancing'
   },
   {
     jobTitle: 'modelingConsultant',

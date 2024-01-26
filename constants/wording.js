@@ -34,22 +34,26 @@ const frWording = {
   cdi: "CDI",
   workStudyContract: "Alternance",
   internship: "Stage",
-  goodsesame: "GoodSesame",
-  timeGoodsesame: "Mai 2022 - Juin 2022",
-  descriptionGoodsesame:
-  "Modélisation par TSVD des préférences utilisateurs pour la " +
+  freelancing: "Freelance",
+  timeFreelancing: "2022 - 2024",
+  descriptionFreelancing:
+  "• J'ai réalisé un audit des données de pricing pour une entreprise de " +
+  "location de véhicules utilitaires, ainsi qu'un moteur de tarification " +
+  "pour l'optimisation de la stratégie de pricing. <br>" +
+  "(Python, Streamlit Cloud, Pandas, AWS S3) <br>" +
+  "• Modélisation par TSVD des préférences utilisateurs pour la " +
   "recommandation des recettes, déploiement d'une API en backend, " +
   "définition d'une feuille de route et des next steps.<br>" +
-  "(Python, SQL, Docker)",
+  "(Python, SQL, Docker, Bitbucket Pipelines)",
   wtw: "Willis Towers Watson",
   timeWtw: "Fév. 2017 - Fév. 2020",
   descriptionWtw:
   "J'ai évolué pendant 3 ans en tant que consultant en actuariat vie au " +
   "sein de l'équipe Insurance, Consulting \& Technology.<br>" +
-  "- J'ai réalisé de nombreuses missions de modélisation : transformation " +
+  "• J'ai réalisé de nombreuses missions de modélisation : transformation " +
   "de modèles, migrations, optimisations, implémentations et documentation " +
   "(C++, R, VBA).<br>" +
-  "- Productions et revues des calculs règlementaires (VBA, Excel).",
+  "• Productions et revues des calculs règlementaires (VBA, Excel).",
   cnp: "CNP Assurances",
   timeCnp: "Oct. 2014 - Sep. 2015",
   descriptionCnp:
@@ -134,12 +138,18 @@ export default {
     cdi: "Permanent Contract",
     workStudyContract: "Work-study contract",
     internship: "Internship",
-    goodsesame: "GoodSesame",
-    timeGoodsesame: "May 2022 - June 2022",
-    descriptionGoodsesame: "TSVD modeling of users preferences for recipes " +
-    "recommendation, deployed a backend API, roadmap definition and advisory " +
-    "for next steps.<br>" +
-    "(Python, SQL, Docker)",
+    freelancing: "Freelance",
+    timeFreelancing: "May 2022 - January 2024",
+    descriptionFreelancing:
+    "• I carried out an audit of pricing data for a commercial vehicle rental " +
+    "company and then built a pricing engine for pricing strategies optimization.<br>" +
+    "(Python, Streamlit Cloud, Pandas, AWS S3) <br>" +
+    "• For a nutrition startup, I have implemented a recommendation system " +
+    "for recipes using TSVD modeling of users preferences and deployed " +
+    "it in a backend API. " +
+    "I also provided an advisory roadmap and guidance for the next steps under" +
+    "businesses and VCs constraints.<br>" +
+    "(Python, SQL, Docker, Bitbucket Pipelines)",
     wtw: "Willis Towers Watson",
     timeWtw: "Feb. 2017 - Feb. 2020",
     descriptionWtw: "I have worked 3 years as a modeling consultant in life " +
