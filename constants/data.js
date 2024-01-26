@@ -93,9 +93,15 @@ export const skillsData = [
   'Kubernetes',
   'AWS',
   'GCP',
+  'Azure',
+  'Terraform',
   'MLflow',
   'Airflow',
   'Weights & Biases',
+  'FastApi',
+  'Flask',
+  'Django',
+  'Streamlit',
 ];
 
 export const languagesData = ['french', 'english'];
